@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/* ------section-1--------------- */
+.nav-item a{
+
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    }
+    .nav-item a:hover{
+        background-color: #FFA500;
+        color: antiquewhite;
+        border-radius: 10%;
+    }
+    
+    .butt1{
+      background-color: #FFA500;
+      color: white;
+      border: none;
+    }
+
+    /* ------------------section-2---------------- */
+
+    .home{
+        height: 650px;
+        background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(images/background\ img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 1px;
+    }
+    .content .btn{
+        background-color:white; 
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .content .btn:hover{
+        background-color: #FFA500;
+        color: white;
+    }
+    .content{
+         color: white ;
+
+    }
+    .content p{
+        font-weight: bold;
+    }
+    .content h3{
+        margin-top: 240px;
+        color: white ;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+ 
+    .content h1{
+        color: white ;
+        font-weight: bold;
+        font-size: 75px;
+    }
+ 
+    .changetext::after{
+        content: '';
+        color:#FFA500 ;
+        text-shadow: 0px 1px 1px black;
+        animation: changecontent 10s infinite linear ;
+    
+    }
+
+    @keyframes changecontent{
+        0%{content:"India";}
+        10%{content:"Italy";}
+        20%{content:"Nepal";}
+        30%{content:"China";}
+        40%{content:"Bhutan";}
+        50%{content:"Maldives";}
+        60%{content:"Britan";}
+        70%{content:"Spain";}
+        80%{content:"France";}
+        90%{content:"Russia";}
+        100%{content:"Sri lanka";}
+    }
+/* ----------------------------section-3------------------ */
+.f1{
+    background-color: #F9F9F9;
+}
+.form h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.form span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.form .btn2{
+    width: 130px;
+    padding: 10px;
+    background-color:#FFA500 ; 
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+}
+.form .btn2:hover{
+    width: 145px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+/*-----------------------------------section-4--------------------------------*/
+
+.packages h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.packages span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.fa-solid{
+    color: #FFA500;
+}
+ .a{
+    color: black;
+}
+.p-text .sp-txt{
+    font-size: 25px;
+}
+.p-text h3{
+    font-size: 20px;
+}
+.btn3{
+    width: 110px;
+    padding: 10px;
+    background-color:#FFA500 ; 
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+/*---------------------------sect-5---------------------------*/
+.services h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.services span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.ser-txt .si{
+    font-size: 80px;
+}
+.ser{
+    background-color: #F9F9F9;
+}
+
+/*---------------------------sect-6---------------------------*/
+.gallary  h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.gallary  span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.gall .gall-img{
+   
+    transition: 0.5s;
+}
+
+.gall .gall-img:hover{
+    transform: scale(1.1);
+}
+/*---------------------------sect-7---------------------------*/
+.about  h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.about  h2{
+    font-weight: bold;
+}
+.about span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.about .btn4{
+    width: 130px;
+    padding: 10px;
+    background-color:#FFA500 ; 
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+}
+.about .btn4:hover{
+    width: 145px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.ab{
+    background-color: #F9F9F9;  
+}
+/*---------------------------footer--------------------------*/
+
+.foot h1{
+    color: #FFA500;
+    text-shadow: 0px 1px 1px black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.foot span{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.fa-brands:hover{
+    color: #FFA500;
+    transition: 0.5s;
+
+}
+.f1{
+    background-color: #F9F9F9;  
+}
